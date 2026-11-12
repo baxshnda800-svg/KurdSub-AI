@@ -10,7 +10,7 @@ from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = os.getenv("AQ.Ab8RN6KnHkoE_kLAToFQXRUardSZdG_RYRsyvMfWPAPMJmKKrw")
 # Google recommends Gemini 3.8 Flash for new projects; access to some older 2.5 models is restricted for new users.
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 MAX_BYTES = 18 * 1024 * 1024
